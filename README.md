@@ -29,7 +29,7 @@ This repository contains:
 ### 3. Access Your Documentation
 Your API documentation will be available at:
 ```
-https://yourusername.github.io/forkline-api-docs/
+https://imranmd96.github.io/forkline-api-docs/
 ```
 
 ## 🔄 Updating Documentation
@@ -91,9 +91,10 @@ The ForkLine API includes:
 
 ## 🔗 Related Resources
 
-- [Main Project Repository](https://github.com/yourusername/forkline)
-- [Backend Services](https://github.com/yourusername/forkline/tree/main/backend)
-- [Frontend Application](https://github.com/yourusername/forkline/tree/main/frontend)
+<!-- - [Main Project Repository](https://github.com/yourusername/forkline)
+- [Backend Services](https://github.com/yourusername/forkline/tree/main/backend) -->
+- [Frontend Application](https://github.com/imranmd96/flutter_auth_app)
+- [API documentation](https://imranmd96.github.io/forkline-api-docs/)
 
 ## 📞 Support
 
