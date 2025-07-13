@@ -19,8 +19,6 @@ info:
 servers:
   - url: http://localhost:3000
     description: Local development server
-  - url: https://api.forkline.com
-    description: Production server
 
 components:
   securitySchemes:
