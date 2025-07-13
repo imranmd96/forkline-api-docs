@@ -131,10 +131,6 @@
         
         // Update environment badge
         const envBadge = document.getElementById('env-badge');
-        if (isProduction) {
-            envBadge.textContent = 'PRODUCTION';
-            envBadge.classList.add('production');
-        }
         
         // Initialize Swagger UI
         window.onload = function() {
@@ -158,18 +154,9 @@
                 requestInterceptor: (request) => {
                     console.log('API Request:', request.method, request.url);
                     
-                    // Replace localhost URLs with production URLs
-                    if (request.url.startsWith('http://localhost:3000')) {
-                        if (isProduction) {
-                            // Change this to your actual production API URL
-                            request.url = request.url.replace('http://localhost:3000', 'https://api.forkline.com');
-                        }
-                    }
+                    // Don't modify localhost URLs - use them as-is
                     
                     // Add custom headers if needed
-                    if (isProduction) {
-                        request.headers['X-API-Source'] = 'github-pages';
-                    }
                     
                     return request;
                 },
